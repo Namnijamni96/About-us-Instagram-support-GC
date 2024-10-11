@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Instagram Support GC</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('https://media3.giphy.com/media/1pmatQ3LcP5XFYxSWF/giphy.gif?cid=6c09b952ny3n27ipi04kvchj47uai43209bj2mohnj8mex0d&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
+      background-size: cover;
+      background-repeat: repeat;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow-y: auto;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 700px;
+      text-align: center;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+      margin: 20px 0;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #00ff99;
+      text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+
+    .rules {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+
+    .rules ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .rules li {
+      margin-bottom: 10px;
+    }
+
+    .rules li::before {
+      content: "• ";
+      color: #00ff99;
+    }
+
+    .channel-list {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .channel {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+
+    .channel-name {
+      font-weight: bold;
+      color: #00ff99;
+    }
+
+    .status {
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .offline {
+      color: #ff4747;
+    }
+
+    .online {
+      color: #47ff74;
+    }
+
+    .back-button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #fff;
+      background-color: #00b3ff;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>About Us</h1>
+    <p>This site is created to support artists who may not have access to the resources or encouragement they need. We are dedicated to building a community that uplifts artists, helping them gain recognition and support from their peers and fans. Our mission is to cultivate a positive environment where artists can freely express themselves and receive the feedback they deserve.</p>
+    
+    <div class="rules">
+      <h2>Community Rules:</h2>
+      <ul>
+        <li>No abuse towards any artist.</li>
+        <li>If someone follows you, follow them back in the group.</li>
+        <li>Don't make fun of any artist or embarrass them.</li>
+        <li>Be a supportive and positive presence in the group.</li>
+        <li>No spam in the group chat.</li>
+      </ul>
+    </div>
+
+    <div class="channel-list">
+      <h2>Our Channels:</h2>
+      <div class="channel">
+        <span class="channel-name">1. Only Vibe..!</span><br>
+        Owner: bubblegum_fairy._ <span class="status offline">(Offline)</span>
+      </div>
+      <div class="channel">
+        <span class="channel-name">2. OTAKU FAN'S</span><br>
+        Owner: its_sketch_artist <span class="status online">(Online)</span>
+      </div>
+      <div class="channel">
+        <span class="channel-name">3. ART GANG✍️🏼🗿👨🏻‍🎨🤝🏻</span><br>
+        Owner: Bruno_Manga🗯️😈 <span class="status online">(Online)</span>
+      </div>
+    </div>
+
+    <a href="index.html" class="back-button">Back to Home</a>
+  </div>
+</body>
+</html>
